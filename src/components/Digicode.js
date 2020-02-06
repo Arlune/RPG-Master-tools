@@ -45,15 +45,15 @@ function Digicode() {
     // Generate the message if the digicode is right or wrong
     let statusMessage = "";
     if (status) {
-        statusMessage = <div className="status success">Code valide</div> 
+        statusMessage = <div className="status success">Access granted</div> 
     } else if (status === false){
-        statusMessage = <div className="status error">Code erroné</div>
+        statusMessage = <div className="status error">Access denied</div>
     }
 
     return (
         <div>
             <h2>Digicode</h2>
-            Find the right digicode
+            <p>Find the right digicode</p>
             <br/>
             <div className="cypher-container">{cyphers}</div>
             <button className="check-code" onClick={ check }>Check your code</button>
@@ -72,9 +72,9 @@ function Cypher({value, status}, key, handlePlusClick, handleMinusClick) {
 
     return (
     <div key={ key+"cypher" } className="cypher">
-        <button className="incrementing" onClick={ () => handlePlusClick(key) }>+</button>
-        <div>{ value }</div> 
-        <button className="decrementing" onClick={ () => handleMinusClick(key)} >-</button>
+        <button className="incrementing button" onClick={ () => handlePlusClick(key) }>v</button>
+        <div className="value">{ value }</div> 
+        <button className="decrementing button" onClick={ () => handleMinusClick(key)} >v</button>
         <div>{ statusMessage }</div>
     </div>)
 }

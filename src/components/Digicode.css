@@ -1,30 +1,111 @@
+body {
+    background-color: #2A3D43;
+}
+
+h2 {
+    font-family: "Nasalization", sans-serif;
+    font-size: 2.5em;
+    color: #3BFFF7;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+p {
+    font-family: "Nasalization", sans-serif;
+    color: white;
+    font-size: 1.3em;
+}
+
 .digicode {
     background-color: blue;
 }
 
 .cypher-container {
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     justify-content: center;
+    background-color: #1E1E1E;
 }
 
 .cypher {
-    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60px;
+    height: 250px;
+    font-family: "BladeRunner", sans-serif;
+    font-size: 3em;
+    color: #3BFFF7;
+    margin: 20px 15px;
+}
 
+.value {
+    padding: 15px 10px;
+    border: solid;
+    border-color: #3BFFF7;
+    border-radius: 5%;
 }
 
 .status {
     margin: 30px 0px;
+    font-family: "Nasalization", sans-serif;
+    font-size: 2em;
 }
 
 .cypher-status {
     margin: 5px 0px 0px 0px;
+    font-size: 0.9em;
 }
 
 .success {
-    color: green;
+    color: #43FD2E;
 }
 
 .error {
-    color: red;
+    color: #FF0712;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+
+.incrementing {
+    transform: rotate(180deg);
+}
+
+.check-code {
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border-radius: 2%;
+    background-color: #CCE6FD;
+    font-family: "Nasalization", sans-serif;
+    font-size: 1em;
+    color: black;
+    border: solid 2px;
+    border-color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.check-code:hover {
+    transform: scale(1.05);
+} 
+
+.check-code:active {
+    transform: scale(1);
+}
+
+@font-face {
+    font-family: "BladeRunner";
+    src: url("../assets/fonts/BladeRunner.TTF");
+  }
+
+@font-face {
+    font-family: "Nasalization";
+    src: url("../assets/fonts/Nasalization.ttf");
 }
