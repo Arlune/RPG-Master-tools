@@ -24,6 +24,8 @@ p {
     flex-direction: row;
     justify-content: center;
     background-color: #1E1E1E;
+    border: solid 3px;
+    border-color: #3BFFF7;
 }
 
 .cypher {
