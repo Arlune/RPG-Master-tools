@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rpg-master-tools/static/css/main.dfe69c4f.chunk.css",
+    "main.js": "/rpg-master-tools/static/js/main.5e5ec710.chunk.js",
+    "main.js.map": "/rpg-master-tools/static/js/main.5e5ec710.chunk.js.map",
+    "runtime-main.js": "/rpg-master-tools/static/js/runtime-main.2134068f.js",
+    "runtime-main.js.map": "/rpg-master-tools/static/js/runtime-main.2134068f.js.map",
+    "static/js/2.a8b12b0d.chunk.js": "/rpg-master-tools/static/js/2.a8b12b0d.chunk.js",
+    "static/js/2.a8b12b0d.chunk.js.map": "/rpg-master-tools/static/js/2.a8b12b0d.chunk.js.map",
+    "index.html": "/rpg-master-tools/index.html",
+    "precache-manifest.9281e0d4c789b4d47ce8e652364fed3d.js": "/rpg-master-tools/precache-manifest.9281e0d4c789b4d47ce8e652364fed3d.js",
+    "service-worker.js": "/rpg-master-tools/service-worker.js",
+    "static/css/main.dfe69c4f.chunk.css.map": "/rpg-master-tools/static/css/main.dfe69c4f.chunk.css.map",
+    "static/js/2.a8b12b0d.chunk.js.LICENSE.txt": "/rpg-master-tools/static/js/2.a8b12b0d.chunk.js.LICENSE.txt",
+    "static/media/Digicode.css": "/rpg-master-tools/static/media/Nasalization.82987827.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2134068f.js",
+    "static/js/2.a8b12b0d.chunk.js",
+    "static/css/main.dfe69c4f.chunk.css",
+    "static/js/main.5e5ec710.chunk.js"
+  ]
+}
