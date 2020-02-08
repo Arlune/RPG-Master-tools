@@ -7,7 +7,7 @@ function Digicode() {
     const [ digicode ] = useState([getRandomInt(9), getRandomInt(9), getRandomInt(9), getRandomInt(9)]);
     const [ currentValues, setCurrentValues ] = useState([ {value : 0, status : null}, {value : 0, status : null}, {value : 0, status : null}, {value : 0, status : null}]);
     const [ status, setStatus ] = useState(null);
-    console.log(digicode)
+    // console.log(digicode);
 
     function increment(i) {
         if (currentValues[i].value >= 9) {
